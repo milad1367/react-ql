@@ -11,6 +11,7 @@ export default class Form extends Base {
   name;
   state;
   validator;
+  type;
 
   $hooks = {};
   $handlers = {};
